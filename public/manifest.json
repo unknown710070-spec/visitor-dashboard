@@ -1,0 +1,12 @@
+
+{
+  "name": "Visitor Control Center",
+  "short_name": "Visitor Hub",
+  "description": "Private visitor analytics dashboard",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#080808",
+  "theme_color": "#080808",
+  "orientation": "portrait"
+}
