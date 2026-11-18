@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080808">
+  <title>Admin Control Center</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/admin.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <div class="logo">C<span>ONTROL</span></div>
+    <div class="status">● PRIVATE ADMIN ACCESS</div>
+
+    <section class="consent">
+      <div id="loginSection">
+        <h2>Administrator Login</h2>
+        <p>Authorized access only.</p>
+
+        <form id="loginForm">
+          <input
+            id="password"
+            type="password"
+            placeholder="Administrator password"
+            autocomplete="current-password"
+            required
+          >
+          <button type="submit">ACCESS DASHBOARD</button>
+        </form>
+
+        <p id="message" aria-live="polite"></p>
+      </div>
+
+      <div id="dashboard" hidden>
+        <h2>Visitor Analytics</h2>
+        <p>Registered visits: <strong id="visitCount">0</strong></p>
+
+        <div id="visits"></div>
+
+        <button id="refreshButton">REFRESH DATA</button>
+        <button id="logoutButton">LOG OUT</button>
+      </div>
+    </section>
+
+    <footer>AUTHORIZED ADMINISTRATOR ONLY</footer>
+  </main>
+</body>
+</html>
