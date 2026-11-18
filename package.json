@@ -13,6 +13,8 @@
     "express-session": "^1.18.1",
     "bcryptjs": "^2.4.3",
     "helmet": "^8.0.0",
-    "geoip-lite": "^1.4.10"
+    "geoip-lite": "^1.4.10",
+    "pg": "^8.13.1",
+    "connect-pg-simple": "^10.0.0"
   }
 }
